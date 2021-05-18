@@ -275,7 +275,7 @@ function App(props) {
 
           <div style={{padding:8}}>
             <Button type={"default"} onClick={()=>{
-              tx( writeContracts.Staker.withdraw( address ) )
+              tx( writeContracts.Staker.withdraw() )
             }}>🏧  Withdraw</Button>
           </div>
 
